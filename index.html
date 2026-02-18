@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>S3 to EC2 Deployment Success!</title>
+    <style>
+        body {
+            background-color: #232f3e; /* AWS Dark Blue */
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            border: 2px solid #ff9900; /* AWS Orange */
+            padding: 50px;
+            border-radius: 15px;
+            background-color: #1a222e;
+        }
+        h1 { color: #ff9900; }
+        .status { color: #00ff00; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Kubetrack Project</h1>
+        <p>Status: <span class="status">Successfully Deployed via Terraform</span></p>
+        <p>This file was fetched from <strong>Amazon S3</strong></p>
+        <p>Server: <em>Nginx Docker Container</em></p>
+    </div>
+</body>
+</html>

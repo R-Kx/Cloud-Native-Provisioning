@@ -60,8 +60,6 @@ To replicate this infrastructure, follow these steps:
 ## 📊 Infrastructure Visualization
 To ensure logical consistency and audit resource dependencies, I generated a visual representation of the stack using `terraform graph`.
 
-![Infrastructure Dependency Graph](./infra-graph.png)
-
 **Key Insights from the Graph:**
 * **Cyclic Dependency Check:** Verified that all 34 resources follow a clean, directed acyclic graph (DAG).
 * **Network-to-Compute Flow:** Clearly shows the VPC and Subnets provisioning before EC2 instances.
